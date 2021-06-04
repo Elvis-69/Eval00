@@ -1,0 +1,6 @@
+
+Etape 1 :
+sed '/Never/ s/gonna/GONNA/' Never_gonna_give_you_up.RickRolled | sed '/give/ s/gonna/GONNA/
+
+Etape 2 :
+sed -e '/^$/d' Never_gonna_give_you_up.RickRolled
